@@ -24,12 +24,12 @@ function PageFacturas() {
     const tableHeaders = ["Id Factura", "Nombre del Cliente", "Dirección", "Teléfono", "Correo"];
 
     //axios config
-    const URLAPI = "https://appi-books.herokuapp.com/api/";
-    //const urlEndPointClientes = URLAPI ? URLAPI + "clientes" : "https://appi-books.herokuapp.com/api/clientes";
-    //const urlEndPointLibros = URLAPI ? URLAPI + "libros" : "https://appi-books.herokuapp.com/api/libros";
-    //const urlEndPointFacturas = URLAPI ? URLAPI + "facturas" : "https://appi-books.herokuapp.com/api/facturas";
-    const urlEndPointFacturasDelete = URLAPI ? URLAPI + "cotizaciones" : "https://appi-books.herokuapp.com/api/cotizaciones";
-    const urlEndPointFacturasAll = "https://appi-books.herokuapp.com/api/allDataFacturas/";
+    const URLAPI = "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/";
+    //const urlEndPointClientes = URLAPI ? URLAPI + "clientes" : "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/clientes";
+    //const urlEndPointLibros = URLAPI ? URLAPI + "libros" : "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/libros";
+    //const urlEndPointFacturas = URLAPI ? URLAPI + "facturas" : "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/facturas";
+    const urlEndPointFacturasDelete = URLAPI ? URLAPI + "cotizaciones" : "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/cotizaciones";
+    const urlEndPointFacturasAll = "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/allDataFacturas/";
     const configEndPoint = {
         method: undefined,
         url: undefined,

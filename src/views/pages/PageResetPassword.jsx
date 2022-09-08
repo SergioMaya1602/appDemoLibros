@@ -13,7 +13,7 @@ function PageResetPassword() {
     const [form, setForm] = useState({})
     const [loading, setLoading] = useState(false);
 
-    const urlPost = 'https://appi-books.herokuapp.com/api/restPassword'
+    const urlPost = 'https://api-books-salvador-git-main-librosdemoel.vercel.app/api/restPassword'
 
 
     /**

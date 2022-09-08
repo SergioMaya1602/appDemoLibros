@@ -22,8 +22,8 @@ function PageClientes() {
     const tableHeaders = ["Nombre", "Dirección", "Teléfono", "Correo"];
 
     //axios config
-    const urlEndPointClientes = "https://appi-books.herokuapp.com/api/clientes";
-    const urlEndPointCliente = "https://appi-books.herokuapp.com/api/cliente";
+    const urlEndPointClientes = "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/clientes";
+    const urlEndPointCliente = "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/cliente";
     const configGetDataClientes = {
         method: "GET",
         url: urlEndPointClientes,

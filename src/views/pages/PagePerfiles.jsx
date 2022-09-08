@@ -22,7 +22,7 @@ function PagePerfiles() {
     const tableHeaders = ["Nombre", "Correo", "Rol"];
 
     //axios config
-    const urlEndPointPerfiles = "https://appi-books.herokuapp.com/api/empleoyes";
+    const urlEndPointPerfiles = "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/empleoyes";
     const configGetDataPerfiles = {
         method: undefined,
         url: urlEndPointPerfiles,

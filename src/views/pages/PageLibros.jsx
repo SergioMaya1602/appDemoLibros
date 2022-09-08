@@ -25,8 +25,8 @@ function PageLibros() {
     const tableHeaders = ["Nº Libro", "Autor", "Títutlo", "Editorial(s)", "ISBN / ISSN", "Año"];
 
     //axios config
-    const urlEndPointLibros = "https://appi-books.herokuapp.com/api/libros";
-    const urlEndPointLibrosHistorial = "https://appi-books.herokuapp.com/api/historialLibros";
+    const urlEndPointLibros = "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/libros";
+    const urlEndPointLibrosHistorial = "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/historialLibros";
     const configEndPointDataLibros = {
         method: undefined,
         url: urlEndPointLibros,

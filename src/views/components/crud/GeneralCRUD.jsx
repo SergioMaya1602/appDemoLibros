@@ -1065,7 +1065,7 @@ function ButtonDownloadContrato(props) {
                 }>
                 <Button variant="success" onClick={() => {
 
-                    window.open("https://appi-books.herokuapp.com/api/excelContrato/" + id + "?token=" + localStorage.is_security, "_blank")
+                    window.open("https://api-books-salvador-git-main-librosdemoel.vercel.app/api/excelContrato/" + id + "?token=" + localStorage.is_security, "_blank")
 
                 }}>
                     <FontAwesomeIcon icon={faReceipt}></FontAwesomeIcon>
@@ -1091,7 +1091,7 @@ function ButtonDownloadPedido(props) {
                 }>
                 <Button variant="primary" onClick={() => {
 
-                    window.open("https://appi-books.herokuapp.com/api/excelPedido/" + id + "?token=" + localStorage.is_security, "_blank")
+                    window.open("https://api-books-salvador-git-main-librosdemoel.vercel.app/api/excelPedido/" + id + "?token=" + localStorage.is_security, "_blank")
 
                 }}>
                     <FontAwesomeIcon icon={faReceipt} className="text-white"></FontAwesomeIcon>
@@ -1117,7 +1117,7 @@ function ButtonDownloadMArc21(props) {
                 }>
                 <Button variant="info" onClick={() => {
 
-                    window.open("https://appi-books.herokuapp.com/api/marc21/" + id + "?token=" + localStorage.is_security, "_blank")
+                    window.open("https://api-books-salvador-git-main-librosdemoel.vercel.app/api/marc21/" + id + "?token=" + localStorage.is_security, "_blank")
 
                 }}>
                     <FontAwesomeIcon icon={faBook} className="text-white"></FontAwesomeIcon>

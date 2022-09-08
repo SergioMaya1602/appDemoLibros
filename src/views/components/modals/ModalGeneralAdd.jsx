@@ -14,10 +14,10 @@ function ModalGeneralAdd(props) {
     const [form, setForm] = useState({})
     const [arrayLibros, setArrayLibros] = useState([]);
 
-    const URLLIBROS = "https://appi-books.herokuapp.com/api/libros";
-    const URLCLIENTES = "https://appi-books.herokuapp.com/api/cliente";
-    const URLPERFILES = "https://appi-books.herokuapp.com/api/empleoyes";
-    const URLFACTURAS = "https://appi-books.herokuapp.com/api/cotizaciones/";
+    const URLLIBROS = "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/libros";
+    const URLCLIENTES = "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/cliente";
+    const URLPERFILES = "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/empleoyes";
+    const URLFACTURAS = "https://api-books-salvador-git-main-librosdemoel.vercel.app/api/cotizaciones/";
 
     let configAxios = {
         method: "POST",
